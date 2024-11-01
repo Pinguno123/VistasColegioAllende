@@ -10,6 +10,7 @@ nav #brand a {
     color: white;
     font-size: 22px;
     font-weight: 600;
+    cursor: pointer;
 }
 
 #brand a img {
