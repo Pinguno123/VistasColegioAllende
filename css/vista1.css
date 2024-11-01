@@ -1,0 +1,35 @@
+nav {
+    background-color: #144c7d;
+}
+
+.navbar-brand{
+    width: 19%;
+}
+
+nav #brand a {
+    color: #f9fdf7;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+#brand a img {
+    width: 25%;
+    border-radius: 10px;
+    margin-right: 4%;
+    margin-left: -35%;
+}
+
+nav #acciones ul li a {
+    color: #85adc4;
+    font-size: 18px;
+}
+
+.btn-eliminar {
+    background-color: #c02230;
+    color: #f9fdf7;
+}
+
+.btn-eliminar:hover {
+    background-color: #a51c2a;
+    color: #f9fdf7;
+}
