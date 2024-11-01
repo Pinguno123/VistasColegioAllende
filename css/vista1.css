@@ -1,5 +1,5 @@
 nav {
-    background-color: #144c7d;
+    background-color: #20264a;
 }
 
 .navbar-brand{
@@ -7,7 +7,7 @@ nav {
 }
 
 nav #brand a {
-    color: #f9fdf7;
+    color: white;
     font-size: 22px;
     font-weight: 600;
 }
@@ -20,7 +20,7 @@ nav #brand a {
 }
 
 nav #acciones ul li a {
-    color: #85adc4;
+    color: #303970;
     font-size: 18px;
 }
 
@@ -32,4 +32,14 @@ nav #acciones ul li a {
 .btn-eliminar:hover {
     background-color: #a51c2a;
     color: #f9fdf7;
+}
+
+.blue-23204D {
+    background-color: #20264a;
+    color: white;
+}
+
+.table-blue-23204D > th {
+    background-color: #20264a;
+    color: white;
 }
