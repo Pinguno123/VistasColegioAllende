@@ -1,0 +1,111 @@
+.rubik {
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400; /* Ajusta a 300, 400, 500, etc. según lo que necesites */
+    font-style: normal;
+}
+
+nav {
+    background-color: #144c7d;
+}
+
+.navbar-brand{
+    width: 19%;
+}
+
+nav #brand a {
+    color: #f9fdf7;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+#brand a img {
+    width: 25%;
+    border-radius: 10px;
+    margin-right: 4%;
+    margin-left: -35%;
+}
+
+nav #acciones ul li a {
+    color: #85adc4;
+    font-size: 18px;
+}
+
+h1{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.principal{
+    width: 80%;
+    margin-left: 10%;
+}
+
+.divForm{
+    width: 100%;
+    background-color: #23204D;
+    color: white;
+    padding: 2% 3%;
+}
+
+.formAgregarCursos label{
+    font-size: 30px;
+}
+
+.labelAgregar{
+    margin-right: 5%;
+}
+
+.inputAgregar{
+    margin-top: 2%;
+    display: flex;
+}
+
+.inputAgregar input, .inputAgregar button{
+    border-radius: 15px;
+    border: 1px solid black;
+    width: 70%;
+}
+
+.Agregar{
+    margin-right: 5%;
+}
+
+.profesorLabel{
+    margin-right: 17.5%;
+}
+
+
+.calendario{
+    width: 84.5%;
+    height: 200px;
+    background-color: white;
+    border-radius: 15px;
+    border: 1px solid black;
+}
+
+.divbtnagregar{
+    margin-left: 5%;
+    margin-top: 2%;
+}
+
+.divbtnagregar button{
+    border-radius: 20px;
+    border: 1px solid black;
+    padding: 1% 2%;
+    font-size: 20px;
+    background-color: #FFFF00;
+}
+
+.encargadoInput option:last-child {
+    border-radius: 8px;
+}
+
+.divbtnagregar button:hover{
+    background-color: #f0f010;
+}
+
+.divbtnagregar button:active{
+    scale: 0.9;
+}
+

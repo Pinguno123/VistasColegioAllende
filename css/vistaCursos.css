@@ -1,0 +1,214 @@
+nav {
+    background-color: #144c7d;
+}
+
+.navbar-brand{
+    width: 19%;
+}
+
+nav #brand a {
+    color: #f9fdf7;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+#brand a img {
+    width: 25%;
+    border-radius: 10px;
+    margin-right: 4%;
+    margin-left: -35%;
+}
+
+nav #acciones ul li a {
+    color: #85adc4;
+    font-size: 18px;
+}
+
+.principal{
+    width: 80%;
+    height: auto;
+    margin-left: 2%;
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: 30% 30% 30% 30%;
+    padding: 0;
+}
+
+.curso{
+    border-radius: 20px;
+    border: 1px solid black;
+    padding-top: 2%;
+    margin: 9%;
+    
+}
+
+.acciones{
+    display: flex;
+    justify-content: center;
+}
+
+.acciones button{
+    border: 0;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.acciones button:active{
+    scale: 0.95;
+}
+
+.btnActu{
+    width: 50%;
+    border-left: 0;
+    border-right: 0;
+    border-bottom-left-radius: 20px;
+    background-color: #198754;
+}
+
+.btnActu:hover{
+    background-color: #127e4c;
+}
+
+.btnElim{
+    width: 50%;
+    border-bottom-right-radius: 20px;
+    background-color: #dc3545;
+}
+
+.btnElim:hover{
+    background-color: #ca3544;
+}
+
+.nombreCurso{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1%;
+}
+
+.hero__cta{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 10px;
+    border: 1px solid;
+    border-radius: 6px;
+    display: inline-block;
+    font-weight: 500;
+    transition: background-color .3s;
+    width: 10%;
+}
+
+.hero__cta:hover{
+    background-color: #fff;
+    color: #1e3c72;
+}
+
+.divbtnagregar{
+    margin-left: 5%;
+    margin-top: 2%;
+}
+
+.divbtnagregar button{
+    border-radius: 20px;
+    border: 1px solid black;
+    padding: 1% 3%;
+    font-size: 20px;
+    background-color: #FFFF00;
+}
+
+.divbtnagregar button:hover{
+    background-color: #f0f010;
+}
+
+.divbtnagregar button:active{
+    scale: 0.9;
+}
+
+.modalEliminar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity .6s .9s;
+    --transform: translateY(-100vh);
+    --transition: transform .8s;
+}
+
+.modal--show{
+    opacity: 1;
+    pointer-events: unset;
+    transition: opacity .6s;
+    --transform: translateY(0);
+    --transition: transform .8s .8s;
+}
+
+.modal__container{
+    margin: auto;
+    width: 90%;
+    max-width: 600px;
+    max-height: 90%;
+    background-color: #fff;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 3em 2.5em;
+    text-align: center;
+    transform: var(--transform);
+    transition:var(--transition);
+}
+
+.modal__title{
+    font-size: 1rem;
+    margin-bottom: 5%;
+}
+
+.modalElim__close, .modalActu__close{
+    text-decoration: none;
+    color: #fff;
+    padding: 0.5em 3em;
+    border: 1px solid ;
+    border-radius: 6px;
+    display: inline-block;
+    font-weight: 300;
+    transition: background-color .3s;
+}
+
+.btnCerrarModalElim{
+    display: flex;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+}
+
+.btnSeguro{
+    color: #FF0000;
+    margin-right: 5%;
+}
+
+.btnSeguro:hover{
+    background-color: #e74646;
+    color: white;
+}
+
+.btnCancelar{
+    color: #0000FF;
+    margin-left: 5%;
+
+}
+
+.btnCancelar:hover{
+    background-color: #3173eecb;
+    color: white;
+}
+
+.modalActu__close{
+    color: #127e4c;
+}
+
+.modalActu__close:hover{
+    background-color: #127e4c;
+    color: white;
+}
